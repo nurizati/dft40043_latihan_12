@@ -1,0 +1,41 @@
+* {
+    font-family: blue;
+}
+p.intro {
+    background-color: yellow;
+}
+p > {
+    background-color: yellow;
+  }
+
+p ~ ul {
+    background: #ff0000;
+  }
+
+  a[target] {
+    background-color: yellow;
+  }
+
+  [title~=flower] {
+    border: 5px solid yellow;
+  }
+
+  div[class$="test"] {
+    background: #ffff00;
+  }
+
+  input:default {
+    box-shadow: 0 0 1px 1px red;
+  }
+  p:first-child {
+    background-color: yellow;
+  }
+  input:focus {
+    background-color: yellow;
+  }
+  a[target=_blank] {
+    background-color: yellow;
+  }
+  input[type=number]{
+    background:pink;
+  }
